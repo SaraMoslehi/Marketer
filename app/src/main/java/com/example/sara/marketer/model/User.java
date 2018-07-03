@@ -1,10 +1,13 @@
 package com.example.sara.marketer.model;
 
 
+import com.example.sara.marketer.MyApplication;
+import com.example.sara.marketer.utils.SharedprefrencedUtil;
 import com.google.gson.Gson;
 
 /**
- * Created by Raad on 6/13/17.
+ * Created by Sara
+ *on 6/13/17.
  */
 
 public class User {
@@ -56,9 +59,10 @@ public class User {
 
     public synchronized static User getInstance() {
         if (mInstance == null) {
-//            String user = MyApplication.MY_SHARED_PREFRENCES.getString(SharedprefrencedUtil.USER_KEY, null);
+            String user = MyApplication.MY_SHARED_PREFRENCES.getString(SharedprefrencedUtil.USER_KEY, null);
             Gson gson = new Gson();
-//            mInstance = gson.fromJson(user, User.class);
+
+            mInstance = gson.fromJson(user, User.class);
 
         }
         return mInstance;

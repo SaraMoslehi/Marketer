@@ -5,10 +5,14 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.example.sara.marketer.model.User;
+import com.example.sara.marketer.utils.AppConstant;
+import com.example.sara.marketer.utils.SharedprefrencedUtil;
+
+import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 
 /**
- * Created by Raad on 8/28/17.
+ * Created by Sara on 8/28/17.
  */
 
 public class MyApplication extends Application {
@@ -33,14 +37,14 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-//        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
-//                .setDefaultFontPath(AppConstant.IRAN_LIGHT)
-//                .setFontAttrId(R.attr.fontPath)
-//                .build()
-//        );
+        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
+                .setDefaultFontPath(AppConstant.IRAN_LIGHT)
+                .setFontAttrId(R.attr.fontPath)
+                .build()
+        );
 
 
-//        MY_SHARED_PREFRENCES = getSharedPreferences(SharedprefrencedUtil.PREFS_NAME, Context.MODE_PRIVATE);
+        MY_SHARED_PREFRENCES = getSharedPreferences(SharedprefrencedUtil.PREFS_NAME, Context.MODE_PRIVATE);
 
 
 
