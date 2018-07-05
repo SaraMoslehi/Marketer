@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
+import com.example.sara.marketer.login.LoginActivity;
+import com.example.sara.marketer.main.MainActivity;
 import com.example.sara.marketer.model.User;
 
 

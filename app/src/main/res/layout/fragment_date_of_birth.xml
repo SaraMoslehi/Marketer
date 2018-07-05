@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/date_of_birth"
+        android:textColor="@color/colorbattleshipgrey"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <NumberPicker
+            android:id="@+id/picker_year"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="8dp"
+            android:descendantFocusability="blocksDescendants"
+            android:theme="@style/NumberPickerTextColorStyle"></NumberPicker>
+
+        <NumberPicker
+            android:id="@+id/picker_month"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_marginRight="8dp"
+            android:theme="@style/NumberPickerTextColorStyle"></NumberPicker>
+
+        <NumberPicker
+            android:id="@+id/picker_day"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:descendantFocusability="blocksDescendants"
+            android:theme="@style/NumberPickerTextColorStyle"></NumberPicker>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_cancle"
+            android:layout_width="120dp"
+            android:layout_marginBottom="24dp"
+
+            android:layout_height="45dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/gradient_background"
+            android:text="@string/cancel_txt"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/return_button"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="24dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/gradient_background"
+            android:text="@string/continue_button"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

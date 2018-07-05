@@ -1,0 +1,1248 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_first_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                        android:id="@+id/text_view_first_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:background="@color/colorWhite"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:padding="4dp"
+                        android:text="@string/first_name"
+
+                        android:textColor="@color/colorbattleshipgrey"
+                        android:textDirection="rtl"
+                        android:textSize="@dimen/text_size_14" />
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_alignParentTop="true"
+
+                        android:src="@drawable/circle_shape_red"
+                        android:visibility="visible"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_last_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/border_login_number"
+
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="8dp"
+
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                        android:id="@+id/text_view_last_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:background="@color/colorWhite"
+                        android:gravity="center"
+
+                        android:maxLines="1"
+                        android:text="@string/last_name"
+                        android:textColor="@color/colorbattleshipgrey"
+                        android:textDirection="rtl"
+                        android:textSize="@dimen/text_size_14" />
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_alignParentTop="true"
+
+                        android:src="@drawable/circle_shape_red"
+                        android:visibility="visible"
+
+                        />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/editext_father_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:inputType="textAutoComplete"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_father_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/father_name"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/editext_shenasname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/border_login_number"
+
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_shenasname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+
+                    android:text="@string/shenasname_no"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_national_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                        android:id="@+id/text_view_national_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:background="@color/colorWhite"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="@string/national_code"
+                        android:textColor="@color/colorbattleshipgrey"
+                        android:textDirection="rtl"
+                        android:textSize="@dimen/text_size_14" />
+
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_alignParentTop="true"
+
+                        android:src="@drawable/circle_shape_red"
+                        android:visibility="visible"
+
+                        />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3">
+
+                    <LinearLayout
+                        android:id="@+id/layout_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+
+                        <Button
+                            android:id="@+id/button_set_date"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/gradient_background_date"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:id="@+id/editext_birth_date"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="3"
+                            android:background="@drawable/border_login_number"
+                            android:gravity="center"
+                            android:inputType="datetime"
+                            android:padding="8dp"
+                            android:singleLine="true"
+                            android:textDirection="rtl"
+                            android:textSize="@dimen/text_size_18" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_birth_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/bith_date"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3">
+
+                    <LinearLayout
+                        android:id="@+id/linear"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+
+                        android:background="@drawable/border_login_number">
+
+                        <Spinner
+                            android:id="@+id/spinner_birth_city"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="3"
+
+                            android:padding="8dp"
+                            android:textColor="@color/colorBlack"
+                            app:theme="@style/ThemeOverlay.AppCompat.Light"
+
+                            />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_birth_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+
+                    android:text="@string/bith_city"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center"
+                    android:text="IR"
+                    android:textSize="@dimen/text_size_18" />
+
+                <EditText
+                    android:id="@+id/editext_sheba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:padding="8dp"
+
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_sheba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/sheba"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="8dp"
+
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/field"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+            ///
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/phone_number"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+            </LinearLayout>
+            ///
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_cell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                        android:id="@+id/text_view_cell"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:background="@color/colorWhite"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="@string/cell_no"
+                        android:textColor="@color/colorbattleshipgrey"
+                        android:textDirection="rtl"
+                        android:textSize="@dimen/text_size_14" />
+
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_alignParentTop="true"
+
+                        android:src="@drawable/circle_shape_red"
+                        android:visibility="visible"
+
+                        />
+                </RelativeLayout>
+                <!--<com.raadsense.raadmarketer.utils.AutoResizeTextView-->
+                <!--android:id="@+id/text_view_cell"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:layout_weight="0.06"-->
+                <!--android:background="@color/colorWhite"-->
+                <!--android:gravity="center"-->
+                <!--android:maxLines="1"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="@string/cell_no"-->
+                <!--android:textColor="@color/colorbattleshipgrey"-->
+                <!--android:textDirection="rtl"-->
+                <!--android:textSize="@dimen/text_size_14" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:maxLines="1"
+
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/address"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_zip_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_zip_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/postal_code"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+            ///////
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_bank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_bank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/bank_name"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_bank_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:inputType="number"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_bank_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/branch_code"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_branch_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_branch_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/branch_name"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_account_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_account_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/account_type"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edit_text_account_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_account_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/account_no"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_store"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                        android:id="@+id/text_view_store_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:background="@color/colorWhite"
+                        android:gravity="center"
+
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="@string/store_name"
+                        android:textColor="@color/colorbattleshipgrey"
+                        android:textDirection="rtl"
+                        android:textSize="@dimen/text_size_14" />
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_alignParentTop="true"
+
+                        android:src="@drawable/circle_shape_red"
+                        android:visibility="visible"
+
+                        />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_barcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                        android:id="@+id/text_view_barcode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:background="@color/colorWhite"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="@string/barcode"
+                        android:textColor="@color/colorbattleshipgrey"
+                        android:textDirection="rtl"
+                        android:textSize="@dimen/text_size_14" />
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_alignParentTop="true"
+
+                        android:src="@drawable/circle_shape_red"
+                        android:visibility="gone"
+
+                        />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/email"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editext_web_site"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_login_number"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    android:id="@+id/text_view_web_site"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/website"
+                    android:textColor="@color/colorbattleshipgrey"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:visibility="gone">-->
+
+            <!--<Button-->
+            <!--android:id="@+id/button_signature"-->
+            <!--fontPath="fonts/IRAN Sans Medium.ttf"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/border_button"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/signature"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--android:textDirection="rtl"-->
+            <!--android:textSize="@dimen/text_size_16" />-->
+
+            <!--<Button-->
+            <!--android:id="@+id/button_signature_remove"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:background="@drawable/border_button"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/signature_remove"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--android:textDirection="rtl"-->
+            <!--android:textSize="@dimen/text_size_16"-->
+            <!--android:visibility="gone" />-->
+
+
+            <!--</LinearLayout>-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle_view_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"></android.support.v7.widget.RecyclerView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle_view_image"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></android.support.v7.widget.RecyclerView>
+
+            <ImageView
+                android:id="@+id/button_add_more"
+                fontPath="fonts/IRAN Sans Medium.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:src="@drawable/ic_plus_black_24dp"
+                android:visibility="visible"
+
+                />
+
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/linear_barcode"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:visibility="gone">-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/image_view_sheba"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_weight="3"-->
+            <!--android:background="@color/colorWhite"-->
+            <!--android:gravity="left"-->
+            <!--android:src="@drawable/ic_check_grey600_18dp"-->
+            <!--android:textDirection="rtl"-->
+            <!--android:textSize="@dimen/text_size_18"-->
+            <!--android:visibility="gone" />-->
+
+            <!--<Button-->
+            <!--android:id="@+id/button_barcode"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/border_button"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/barcode"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--android:textDirection="rtl"-->
+            <!--android:textSize="@dimen/text_size_16" />-->
+
+
+            <!--</LinearLayout>-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/image_view_sign"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:src="@color/colorAccent"-->
+            <!--android:visibility="visible" />-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/image_view_licence"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:visibility="gone" />-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/image_view_natinal_card"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:visibility="gone" />-->
+
+
+            <!--<ProgressBar-->
+            <!--android:id="@+id/progressbar"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:indeterminateDrawable="@drawable/progress"-->
+            <!--android:visibility="gone" />-->
+
+            <Button
+                android:id="@+id/add_button"
+                style="@style/CodeFont"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/gradient_background"
+                android:text="@string/confirm_button" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progress"
+        android:visibility="gone"></ProgressBar>
+</RelativeLayout>

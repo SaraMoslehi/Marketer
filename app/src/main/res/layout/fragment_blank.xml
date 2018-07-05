@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raadsense.raadmarketer.signature.SignatureFragment">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar" />
+    <!-- TODO: Update blank fragment layout -->
+    <com.raadsense.raadmarketer.signature.SignatureDrawingView
+        android:id="@+id/signature_draw"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_height="match_parent"
+       />
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+  >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16sp"
+        fontPath="fonts/IRAN Sans Medium.ttf"
+
+        android:text="@string/main_exit"
+        android:textColor="@color/colorbattleshipgrey"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        fontPath="fonts/IRAN Sans Medium.ttf"
+
+        android:text="@string/main_exit"
+        android:textColor="@color/colorbattleshipgrey"
+        android:textSize="14dp" />
+
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/text_title"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/main_exit"
+        android:textColor="@color/colorbattleshipgrey"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_message"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal">
+
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/button_cancle"
+
+            android:layout_alignBottom="@+id/button_cancle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/gradient_background"
+            android:text="@string/yes_msg"        style="@style/CodeFont"
+            />
+
+        <Button
+            android:id="@+id/button_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="39dp"
+            android:layout_marginStart="39dp"
+            android:background="@drawable/gradient_background"
+            android:text="@string/no_msg"        style="@style/CodeFont"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
