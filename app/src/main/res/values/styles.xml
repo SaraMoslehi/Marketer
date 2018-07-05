@@ -8,4 +8,30 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_left_black_24dp</item>
+    </style>
+
+    <!--<item name="android:textColorSecondary">@color/colorWhite</item>-->
+
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="fontPath">fonts/IRAN Sans Medium.ttf</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="colorControlHighlight">@color/colorufogreen</item>
+    </style>
+
+    <style name="NumberPickerTextColorStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorPrimary">@color/colorbattleshipgrey</item>
+    </style>
 </resources>

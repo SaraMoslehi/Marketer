@@ -1,3 +1,380 @@
 <resources>
-    <string name="app_name">Marketer</string>
+    <string name="app_name"> مارکتر</string>
+
+    <string name="first_name">نام</string>
+    <string name="last_name">نام خانوادگی</string>
+    <string name="father_name">نام پدر</string>
+    <string name="shenasname_no">شماره شناسنامه</string>
+    <string name="national_code">کد ملی</string>
+    <string name="national_card">کارت ملی</string>
+    <string name="bith_date">تاریخ تولد</string>
+    <string name="bith_city">محل تولد </string>
+    <string name="signature">امضا</string>
+    <string name="signature_remove">حذف</string>
+    <string name="field"> فعالیت </string>
+    <string name="business_licence"> جواز کسب</string>
+    <string name="add_more"> اضافه کردن بیشتر</string>
+    <string name="cell_no"> شماره همراه</string>
+    <string name="address"> آدرس</string>
+    <string name="barcode"> بارکد</string>
+    <string name="store_name">نام فروشگاه</string>
+    <string name="sheba">شبا</string>
+    <string name="bank_name">نام بانک</string>
+    <string name="branch_code">کد شعبه</string>
+    <string name="branch_name">نام شعبه</string>
+    <string name="account_type">نوع حساب</string>
+    <string name="account_no">شماره حساب</string>
+    <string name="email">ایمیل </string>
+    <string name="website">وب سایت </string>
+    <string name="postal_code">کد پستی </string>
+    <string name="phone_number">تلفن ثابت </string>
+
+    <string name="logout_mesg">خروج</string>
+    <string name="delete_mesg">حذف</string>
+    <string name="sure_msg">آیا برای خروج مطمنید</string>
+    <string name="yes_msg">بله</string>
+    <string name="no_msg">خیر</string>
+
+
+    <string name="add_new_merchant">مرچنت جدید</string>
+    <string name="merchant_list">لیست مرچنتها</string>
+    <string name="merchant">مرچنت</string>
+    <string name="saved">با موفقیت ذخیره شد</string>
+
+    <string name="national_code_error">فرمت کد ملی صحیح نیست.</string>
+    <string name="national_code_len_error">کد ملی باید ۱۰ رقم باشد.</string>
+
+    <string name="national_file_error">عکس کارت ملی ارسال نشد .ذخیره انجام نمیشود.</string>
+    <string name="business_file_error">عکس جواز کسب ارسال نشد .ذخیره انجام نمیشود.</string>
+    <string name="sign_file_error">فایل امضا ارسال نشد .ذخیره انجام نمیشود.</string>
+    <string name="file_error">فایل  ارسال نشد .ذخیره انجام نمیشود.</string>
+
+    <string name="otp_page_hint">شماره همراه خود را وارد کنید</string>
+
+    <string name="returns">بازگشت</string>
+    <string name="continuation">ادامه</string>
+
+    <string name="network_error">خطای شبکه</string>
+    <string name="server_error">خطای سرور </string>
+    <string name="not_save">ثبت نشد. </string>
+    <string name="network_error_file">خطای شبکه در ارسال فایل </string>
+    <string name="network_error_offline">خطای شبکه .در حال ثبت اطلاعات به صورت آفلاین ...</string>
+
+    <string name="enter_valid_phone">شماره صحیح وارد شود</string>
+
+    <string name="register_verification_hint">به شماره موبایل شما کدی پیامک شده است. کد دریافت شده را وارد کنید.</string>
+    <string name="code_not_valid">کد وارد شده صحیح نیست</string>
+
+    <string name="error400">خطای 400</string>
+    <string name="error">خطا </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_text_otp_hint">کد تایید</string>
+    <string name="login_text_cell_number_"> شماره موبایل </string>
+    <string name="login_text_cell_number_error">این شماره موبایل اشتباه است.</string>
+    <string name="login_text_code_error">کد صحیح وارد شود.</string>
+    <string name="login_enter_valid_username">نام کاربری وارد شود.</string>
+    <string name="login_cell_number">شماره موبایل خود را وارد نمايید.</string>
+    <string name="login_cell_number_hint">برای مثال ۰۹xxxxxxxxx</string>
+    <string name="continue_button">ادامه</string>
+    <string name="date_of_birth">تاریخ تولد</string>
+    <string name="cancel_txt">انصراف</string>
+
+
+    <string name="login_enter_valid_phone">شماره وارد شود</string>
+    <string name="otp_text">کد تایید برای شما پیامک شد.</string>
+    <string name="otp_text_resend_again">پیامک را دریافت نکردم دوباره ارسال کنید.</string>
+    <string name="confirm_button">ثبت</string>
+    <string name="retry_later">دوباره تلاش کنید</string>
+    <string name="login_enter_valid_code">کد وارد شود.</string>
+    <string name="main_exit">خروج</string>
+    <string name="error_unautorize">دسترسی غیر مجاز </string>
+
+    <string name="no_sent">در انتظار ارسال</string>
+    <string name="sent_no_active">در اتنظار تایید</string>
+    <string name="sent_active">تایید شده</string>
+    <string name="sent_doc_err">نقص مدارک</string>
+    <string name="all">همه</string>
+
+    <string name="menu_version">نسخه</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="take_photo">گرفتن عکس با دوربین</string>
+    <string name="from_gallery">انتخاب عکس از گالری</string>
+
+
+    <string-array name="List">
+        <item>21|تهران</item>
+        <item>20|آمل</item>
+        <item>22|رشت</item>
+
+    </string-array>
+
+    <string-array name="cityList">
+    <item>
+    {
+    "city_id": 21,
+    "city_name": "تهران"
+    }</item>
+        <item>
+    {
+    "city_id": 98,
+    "city_name": "آمل"
+    }</item>
+        <item>
+    {
+    "city_id": 85,
+    "city_name": "سرخرود"
+    }</item>
+        <item>
+    {
+    "city_id": 41,
+    "city_name": "آذربایجان شرقی"
+    }</item>
+        <item>
+    {
+    "city_id": 44,
+    "city_name": "آذربایجان غربی"
+    }</item>
+        <item>
+    {
+    "city_id": 4,
+    "city_name": "اراک"
+    }</item>
+        <item>
+    {
+    "city_id": 45,
+    "city_name": "اردبیل"
+    }</item>
+        <item>
+    {
+    "city_id": 11,
+    "city_name": "ارومیه"
+    }</item>
+        <item>
+    {
+    "city_id": 31,
+    "city_name": "اصفهان"
+    }</item>
+        <item>
+    {
+    "city_id": 26,
+    "city_name": "البرز"
+    }</item>
+        <item>
+    {
+    "city_id": 33,
+    "city_name": "اهواز"
+    }</item>
+        <item>
+    {
+    "city_id": 84,
+    "city_name": "ایلام"
+    }</item>
+        <item>
+    {
+    "city_id": 761,
+    "city_name": "بندرعباس"
+    }</item>
+        <item>
+    {
+    "city_id": 92,
+    "city_name": "بندر بوشهر"
+    }</item>
+        <item>
+    {
+    "city_id": 6,
+    "city_name": "بجنورد"
+    }</item>
+        <item>
+    {
+    "city_id": 97,
+    "city_name": "بیرجند"
+    }</item>
+        <item>
+    {
+    "city_id": 77,
+    "city_name": "بوشهر"
+    }</item>
+        <item>
+    {
+    "city_id": 110,
+    "city_name": "تبریز"
+    }</item>
+        <item>
+    {
+    "city_id": 38,
+    "city_name": "چهارمحال بختیاری"
+    }</item>
+        <item>
+    {
+    "city_id": 56,
+    "city_name": "خراسان جنوبی"
+    }</item>
+        <item>
+    {
+    "city_id": 51,
+    "city_name": "خراسان رضوی"
+    }</item>
+        <item>
+    {
+    "city_id": 58,
+    "city_name": "خراسان شمالی"
+    }</item>
+        <item>
+    {
+    "city_id": 61,
+    "city_name": "خوزستان"
+    }</item>
+        <item>
+    {
+    "city_id": 198,
+    "city_name": "رشت"
+    }</item>
+        <item>
+    {
+    "city_id": 207,
+    "city_name": "زاهدان"
+    }</item>
+        <item>
+    {
+    "city_id": 24,
+    "city_name": "زنجان"
+    }</item>
+        <item>
+    {
+    "city_id": 214,
+    "city_name": "ساری"
+    }</item>
+        <item>
+    {
+    "city_id": 239,
+    "city_name": "سنندج"
+    }</item>
+        <item>
+    {
+    "city_id": 23,
+    "city_name": "سمنان"
+    }</item>
+        <item>
+    {
+    "city_id": 54,
+    "city_name": "سیستان و بلوچستان"
+    }</item>
+        <item>
+    {
+    "city_id": 256,
+    "city_name": "شهر کرد"
+    }</item>
+        <item>
+    {
+    "city_id": 264</item>
+        <item>
+    "city_name": "شیراز"
+    },
+    {
+    "city_id": 71,
+    "city_name": "فارس"
+    }</item>
+        <item>
+    {
+    "city_id": 28
+    "city_name": "قزوین"
+    }</item>
+        <item>
+    {
+    "city_id": 25,
+    "city_name": "قم"
+    }</item>
+        <item>
+    {
+    "city_id": 330,
+    "city_name": "کرج"
+    }</item>
+        <item>
+    {
+    "city_id": 87,
+    "city_name": "كردستان"
+    }</item>
+        <item>
+    {
+    "city_id": 34,
+    "city_name": "كرمان"
+    }</item>
+        <item>
+    {
+    "city_id": 83,
+    "city_name": "كرمانشاه"
+    }</item>
+        <item>
+    {
+    "city_id": 74,
+    "city_name": "كهكیلویه و بویراحمد"
+    }</item>
+        <item>
+    {
+    "city_id": 329,
+    "city_name": "کیش"
+    }</item>
+        <item>
+    {
+    "city_id": 339,
+    "city_name": "گرگان"
+    }</item>
+        <item>
+    {
+    "city_id": 17,
+    "city_name": "گلستان"
+    }</item>
+        <item>
+    {
+    "city_id": 13,
+    "city_name": "گیلان"
+    }</item>
+        <item>
+    {
+    "city_id": 66,
+    "city_name": "لرستان"
+    }</item>
+        <item>
+    {
+    "city_id": 15,
+    "city_name": "مازندران"
+    }</item>
+        <item>
+    {
+    "city_id": 376,
+    "city_name": "مشهد"
+    }</item>
+        <item>
+    {
+    "city_id": 86,
+    "city_name": "مركزی"
+    }</item>
+        <item>
+    {
+    "city_id": 76,
+    "city_name": "هرمزگان"
+    }</item>
+        <item>
+    {
+    "city_id": 81,
+    "city_name": "همدان"
+    }</item>
+        <item>
+    {
+    "city_id": 425,
+    "city_name": "یاسوج"
+    }</item>
+        <item>
+    {
+    "city_id": 35,
+    "city_name": "یزد"
+    }</item>
+
+
+    </string-array>
+
 </resources>

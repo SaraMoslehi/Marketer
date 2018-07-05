@@ -1,0 +1,98 @@
+<resources>
+
+    <array name="city_0">
+        <item>21</item>
+        <item>تهران</item>
+    </array>
+    <array name="city_1">
+        <item>98</item>
+        <item>آمل</item>
+    </array>
+    <array name="city_2">
+        <item>85</item>
+        <item>سرخرود</item>
+    </array>
+    <array name="city_3">
+        <item>41</item>
+        <item>آذربایجان شرقی</item>
+    </array>
+    <array name="city_4">
+        <item>44</item>
+        <item>آذربایجان غربی</item>
+    </array>
+    <array name="city_5">
+        <item>4</item>
+        <item>اراک</item>
+    </array>
+
+    <array name="city_6">
+        <item>45</item>
+        <item>اردبیل</item>
+    </array>
+    <array name="city_7">
+        <item>11</item>
+        <item>ارومیه</item>
+    </array>
+    <array name="city_8">
+        <item>31</item>
+        <item>اصفهان</item>
+    </array>
+
+    <array name="city_9">
+        <item>26</item>
+        <item>البرز</item>
+    </array>
+    <array name="city_10">
+        <item>33</item>
+        <item>اهواز</item>
+    </array>
+    <array name="city_11">
+        <item>84</item>
+        <item>ایلام</item>
+    </array>
+
+    <array name="city_12">
+        <item>761</item>
+        <item>بندرعباس</item>
+    </array>
+    <array name="city_13">
+        <item>92</item>
+        <item>بندر بوشهر</item>
+    </array>
+    <array name="city_14">
+        <item>6</item>
+        <item>بجنورد</item>
+    </array>
+    <array name="city_15">
+        <item>97</item>
+        <item>بیرجند</item>
+    </array>
+
+    <array name="city_16">
+        <item>77</item>
+        <item>بوشهر</item>
+    </array>
+    <array name="city_17">
+        <item>110</item>
+        <item>تبریز</item>
+    </array>
+    <array name="city_18">
+        <item>38</item>
+        <item>چهارمحال بختیاری</item>
+    </array>
+
+  <array name="city_19">
+        <item>56</item>
+        <item>خراسان جنوبی</item>
+    </array>
+  <array name="city_20">
+        <item>51</item>
+        <item>خراسان رضوی</item>
+    </array>
+  <array name="city_21">
+        <item>58</item>
+        <item>خراسان شمالی</item>
+    </array>
+
+
+</resources>

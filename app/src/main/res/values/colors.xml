@@ -3,4 +3,49 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+
+    <!--<color name="colorRaadBlue">#283794</color>-->
+    <!--<color name="colorRaadOrange">#f26524</color>-->
+    <!--<color name="colorRaadlightOrange">#f38644</color>-->
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="divider">#5EFFFFFF</color>
+
+    <color name="colordarkjunglegreen">#282828</color>
+    <color name="mycolordarkjunglegreenDarker">#262626</color>
+
+    <color name="colortransparent">#28282828</color>
+
+    <color name="colordunitednationsblue">#4a90e2</color>
+
+    <color name="colorbattleshipgrey">#828282</color>
+
+    <color name="colorgray">#cccccc</color>
+
+    <color name="colorsnow">#f9f9f9</color>
+    <color name="mycolorsnowDarker">#b6b6b6</color>
+
+
+    <color name="colorYellow">#dce4bf07</color>
+    <color name="colorYellowgreen">#7ed321</color>
+    <color name="colorufogreen">#21d370</color>
+
+    <color name="colorblueviolet">#8521d3</color>
+    <color name="colorpalatinateblue">#2121d3</color>
+    <color name="colorunitednationsblue">#4a90e2</color>
+
+    <!--<color name="colorpalatinateblue">#2121d3</color>-->
+    <color name="colorbleudefrance">#217dd3</color>
+
+    <!--<color name="colorbleudefrance">#217dd3</color>-->
+    <color name="colorbrightcerulean">#21bad3</color>
+
+    <color name="colorfireenginered">#d32121</color>
+    <color name="colorfireengineredlight">#df5353</color>
+
+    <color name="colorpastelgray">#cccccc</color>
+
 </resources>
