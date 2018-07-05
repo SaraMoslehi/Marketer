@@ -53,6 +53,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.example.sara.marketer.DB.MerchantTable;
+import com.example.sara.marketer.DB.ResultCountReceiver;
+import com.example.sara.marketer.DB.ResultURIReceiver;
 import com.example.sara.marketer.MyApplication;
 import com.example.sara.marketer.R;
 import com.example.sara.marketer.model.City;
@@ -151,8 +154,8 @@ public class AddNewMerchantFragment extends Fragment implements View.OnClickList
 
     String bestProvider;
     List<Address> user = null;
-    float lat;
-    float lng;
+    float lat=0;
+    float lng=0;
 
     private ImageAdapter imageAdapter;
     private RecyclerView recyclerView;
@@ -217,11 +220,11 @@ public class AddNewMerchantFragment extends Fragment implements View.OnClickList
 
         setCityOffLine();
 
-        if (isNetworkAvailable()) {
-            offline = false;
-        } else {
+//        if (isNetworkAvailable()) {
+//            offline = false;
+//        } else {
             offline = true;
-        }
+//        }
 
 
         if (editMode == show) {
@@ -262,7 +265,7 @@ public class AddNewMerchantFragment extends Fragment implements View.OnClickList
 //
 //        }
 
-        setLoction();
+//        setLoction();
 
         return view;
     }
@@ -645,14 +648,14 @@ public class AddNewMerchantFragment extends Fragment implements View.OnClickList
     private void saveMerchant(Merchant merchant) {
         String timeStamp = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").format(new Date());
         merchant.setModifiedDate(timeStamp);
-//        MerchantTable.setMerchantsToTable(mContext, merchant, new ResultURIReceiver() {
-//            @Override
-//            public void onResult(Uri i) {
-//                progressbar.setVisibility(View.GONE);
-//                changeFragment();
-//
-//            }
-//        });
+        MerchantTable.setMerchantsToTable(mContext, merchant, new ResultURIReceiver() {
+            @Override
+            public void onResult(Uri i) {
+                progressbar.setVisibility(View.GONE);
+                changeFragment();
+
+            }
+        });
 
     }
 
@@ -798,38 +801,38 @@ public class AddNewMerchantFragment extends Fragment implements View.OnClickList
 
     private void checkNetwork() {
         progressbar.setVisibility(View.VISIBLE);
-
-        if (isNetworkAvailable()) {
-
-            if (editMode == update) {
-                //todo 1/11
-//                merchant.setState(AppConstant.TEMPACTIVE);
-
-                if (list.size() > 0) {
-                    loadAgain(0);
-
-
-                } else {
-
-                    editAccount();
-                }
-
-            } else if (editMode == insert) {
-                //todo 1/11
-//                merchant.setState(AppConstant.TEMPACTIVE);
-
-                if (list.size() > 0) {
-                    loadAgain(0);
-
-
-                } else {
-
-                    saveAccount();
-                }
-            }
-
-
-        } else {
+//
+//        if (isNetworkAvailable()) {
+//
+//            if (editMode == update) {
+//                //todo 1/11
+////                merchant.setState(AppConstant.TEMPACTIVE);
+//
+//                if (list.size() > 0) {
+//                    loadAgain(0);
+//
+//
+//                } else {
+//
+//                    editAccount();
+//                }
+//
+//            } else if (editMode == insert) {
+//                //todo 1/11
+////                merchant.setState(AppConstant.TEMPACTIVE);
+//
+//                if (list.size() > 0) {
+//                    loadAgain(0);
+//
+//
+//                } else {
+//
+//                    saveAccount();
+//                }
+//            }
+//
+//
+//        } else {
             //todo
             if (editMode == update) {
 
@@ -842,7 +845,7 @@ public class AddNewMerchantFragment extends Fragment implements View.OnClickList
             }
 
 
-        }
+//        }
     }
 
     private void laodlist(String pathURL, int index) {
@@ -905,12 +908,12 @@ public class AddNewMerchantFragment extends Fragment implements View.OnClickList
 
     }
 
-    private boolean isNetworkAvailable() {
-        ConnectivityManager connectivityManager
-                = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
-        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
-    }
+//    private boolean isNetworkAvailable() {
+//        ConnectivityManager connectivityManager
+//                = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+//        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+//        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+//    }
 
     private void saveAccount() {
 //        Log.i(TAG, "saveMerchant: " + myApplication.getCurrentUser().getJwtToken());
@@ -1095,16 +1098,16 @@ public class AddNewMerchantFragment extends Fragment implements View.OnClickList
     private void editMerchant(Merchant merchant) {
         String timeStamp = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").format(new Date());
         merchant.setModifiedDate(timeStamp);
-//        MerchantTable.setEditMerchantsToTable(mContext, merchant, new ResultCountReceiver() {
-//            @Override
-//            public void onResult(int i) {
-//                progressbar.setVisibility(View.GONE);
-//
-//                changeFragment();
-//
-//
-//            }
-//        });
+        MerchantTable.setEditMerchantsToTable(mContext, merchant, new ResultCountReceiver() {
+            @Override
+            public void onResult(int i) {
+                progressbar.setVisibility(View.GONE);
+
+                changeFragment();
+
+
+            }
+        });
     }
 
 

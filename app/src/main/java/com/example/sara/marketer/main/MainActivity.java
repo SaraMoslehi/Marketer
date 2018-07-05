@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.example.sara.marketer.MyApplication;
 import com.example.sara.marketer.R;
+import com.example.sara.marketer.merchantlist.MerchantFragment;
 import com.example.sara.marketer.utils.ChangeFragment;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         MyApplication myApplication = (MyApplication) MainActivity.this.getApplicationContext();
 
 
-//        ChangeFragment.changeFragment(this, new MerchantFragment(), R.id.container, false);
+        ChangeFragment.changeFragment(this, new MerchantFragment(), R.id.container, false);
     }
 
     @Override

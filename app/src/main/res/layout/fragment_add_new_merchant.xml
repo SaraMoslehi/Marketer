@@ -54,7 +54,7 @@
                     android:layout_height="wrap_content">
 
 
-                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    <com.example.sara.marketer.utils.AutoResizeTextView
                         android:id="@+id/text_view_first_name"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -112,7 +112,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    <com.example.sara.marketer.utils.AutoResizeTextView
                         android:id="@+id/text_view_last_name"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -165,7 +165,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_father_name"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -208,7 +208,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_shenasname"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -254,7 +254,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    <com.example.sara.marketer.utils.AutoResizeTextView
                         android:id="@+id/text_view_national_code"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -334,7 +334,7 @@
                 </RelativeLayout>
 
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_birth_date"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -392,7 +392,7 @@
                 </RelativeLayout>
 
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_birth_city"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -444,7 +444,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_sheba"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -484,7 +484,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_field"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -526,7 +526,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_phone"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -570,7 +570,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    <com.example.sara.marketer.utils.AutoResizeTextView
                         android:id="@+id/text_view_cell"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -595,7 +595,7 @@
 
                         />
                 </RelativeLayout>
-                <!--<com.raadsense.raadmarketer.utils.AutoResizeTextView-->
+                <!--<com.example.sara.marketer.utils.AutoResizeTextView-->
                 <!--android:id="@+id/text_view_cell"-->
                 <!--android:layout_width="wrap_content"-->
                 <!--android:layout_height="match_parent"-->
@@ -634,7 +634,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_address"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -674,7 +674,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_zip_code"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -714,7 +714,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_bank_name"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -754,7 +754,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_bank_code"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -794,7 +794,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_branch_name"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -835,7 +835,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_account_type"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -877,7 +877,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_account_no"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -919,7 +919,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    <com.example.sara.marketer.utils.AutoResizeTextView
                         android:id="@+id/text_view_store_name"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -964,8 +964,8 @@
                     android:layout_weight="1"
                     android:background="@drawable/border_login_number"
                     android:gravity="center"
-                    android:maxLines="1"
                     android:inputType="number"
+                    android:maxLines="1"
                     android:singleLine="true"
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
@@ -974,7 +974,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                    <com.example.sara.marketer.utils.AutoResizeTextView
                         android:id="@+id/text_view_barcode"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -1025,7 +1025,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_email"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -1065,7 +1065,7 @@
                     android:textDirection="rtl"
                     android:textSize="@dimen/text_size_18" />
 
-                <com.raadsense.raadmarketer.utils.AutoResizeTextView
+                <com.example.sara.marketer.utils.AutoResizeTextView
                     android:id="@+id/text_view_web_site"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
